@@ -1,10 +1,50 @@
-body {text-align: left; background: gray; padding: 0 15% 0 15%; vlink: gray;}
+body {background: white; vlink: gray;}
 
-p {font-family: courier new; color: white; font-size: 1.2em; margin-left: 4%}
-h1 {font-family: courier new; color: white; font-size: 4em; font-weight: 200}
-h2 {font-family: courier new; color: white; font-size: 2em; font-weight: 400}
-h3 {font-family: courier new; color: white; font-size: .8em; font-weight: 100; margin-left: 6%}
+p {font-family: Courier New; color: black; font-size: 1em; font-weight:200; text-align: left; margin-left: 4%; margin-right: 4%}
+h1 {font-family: Courier New; color: black; font-size: 5em; text-align: left; font-weight:200; margin-left: 12%}
+h2 {font-family: Courier New; color: black; font-size: 2em; text-align: center;font-weight:200}
+h3 {font-family: Courier New; color: black; font-size: .8em; font-weight:200; text-align: left; margin-left: 8%; margin-right: 4%}
 
-div.main {width: 75%; padding: 0 0 0 0}
 
-div.sidebar {width: 20%; float:right; text-align: right}
+div.top {
+width: 15%;
+position:fixed;
+top: 5%;
+right: 20%;
+float: right;
+text-align: right;
+}
+
+div.top2 {
+width: 12%;
+position:fixed;
+top: 5%;
+right: 5%;
+text-align: right;
+}
+
+
+div.left {
+width: 25%; 
+text-align: justify;
+position:fixed;
+left:6%;
+top: 22%; 
+border-style:solid;}
+
+
+div.middle {
+width: 25%; 
+text-align: justify;
+position:fixed;
+left:37%; 
+top: 22%; 
+border-style:solid;}
+
+div.right {
+width: 25%;
+position:fixed;
+left: 68%;
+top: 22%;
+border-style:solid;}
+
